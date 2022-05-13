@@ -4,85 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/animacoes.css">
-    <link rel="stylesheet" href="./src/css/estilos.css">
-    <link rel="stylesheet" href="./src/css/fontes.css">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
     <link rel="stylesheet" href="./src/css/responsivo.css">
-    <title>MapaDev Week - Marvel</title>
 </head>
 <body>
     <main>
         <header class="cabecalho">
-            <h1 class="titulo">Character Select</h1>
+            <h1 class="titulo">
+                Character Select
+            </h1>            
         </header>
         <div class="selecao-de-personagens">
             <div class="personagem-grande personagem-jogador-1">
-                <img src="./src/imagens/goku.png" alt="Imagem Do Goku" id="personagem-jogador-1">
+                <img src="./src/imagens/goku.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
                 <div class="nome">
                     <h2>Goku</h2>
                 </div>
             </div>
 
             <ul class="lista-de-personagens">
-                <li class="personagem selecionado" id="goku" data-name="Goku">
+                <li class="personagem selecionado" id="tei-chin-han" data-name="Tei Chin Han">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/goku-front.jpg" alt="Personagem Goku">
+                    <img src="./src/imagens/tei-chin-han-front.jpg" alt="Personagem Tei Chin Han">
                 </li>
-                <li class="personagem " id="trunks" data-name="Trunks">
+
+                <li class="personagem" id="android-18" data-name="Android 18">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/android-18-front.png" alt="Android 18">
+                </li>
+
+                <li class="personagem" id="piccolo" data-name="Piccolo">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens//piccolo-front.jpg" alt="Personagem Piccolo">
+                </li>
+
+                <li class="personagem" id="trunks" data-name="Trunks">
                     <span class="tag">1P</span>
                     <img src="./src/imagens/trunks-front.png" alt="Personagem Trunks">
                 </li>
-                <li class="personagem " id="freezar" data-name="Freeza">
+
+                <li class="personagem jogador-2-selecionado" id="freeza" data-name="Freeza">
                     <span class="tag">1P</span>
                     <img src="./src/imagens/freeza-front.jpg" alt="Personagem Freeza">
                 </li>
-                <li class="personagem " id="curirin" data-name="Curirin">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/caririn-front.jpg" alt="Personagem Curirin">
+
+                <li class="personagem" id="mister-satan" data-name="Mister Satan">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/mister-satan-front.png" alt="Personagem Mister Satan">
                 </li>
-                <li class="personagem " id="mister-satan" data-name="Mister satan">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/mister-satan.jpg" alt="Personagem Mister satan">
-                </li>
-                <li class="personagem jogador-2-selecionado" id="cell" data-name="Cell">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/cell-front.jpg" alt="Personagem Cell">
-                </li>
-                <li class="personagem " id="gohan" data-name="Gohan">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/gohan-front.jpg" alt="Personagem Gohan">
-                </li>
-                <li class="personagem " id="piccolo" data-name="Piccolo">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/piccolo.png" alt="Personagem Piccolo">
-                </li>
-                <li class="personagem " id="ten-chin-han" data-name="Ten Chin Han">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/tei-chin-han-front.jpg" alt="Personagem Ten Chi Han">
-                </li>
-                <li class="personagem " id="android-18" data-name="Android 18">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/android-18-front.png" alt="Personagem Android 18">
-                </li>
-                <li class="personagem " id="vegeta" data-name="Vegeta">
+
+                <li class="personagem" id="vegeta" data-name="Vegeta">
                     <span class="tag">1P</span>
                     <img src="./src/imagens/vegeta-front.png" alt="Personagem Vegeta">
                 </li>
-                <li class="personagem " id="majin-buu" data-name="Majin Buu">
+
+                <li class="personagem" id="goku-super-saiajim" data-name="Goku Super Saiajim">
                     <span class="tag">1P</span>
-                    <img src="./src/imagens/majin-buu-front.png" alt="Personagem Majin Buu">
+                    <img src="./src/imagens/goku-super-saiajim-front.jpg" alt="Personagem Goku Super Saiajim">
+                </li>
+
+                <li class="personagem" id="majim-buu" data-name="Majim Buu">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/majinbuu-front.png" alt="Personagem Majim Buu">
+                </li>
+
+                <li class="personagem" id="curirin" data-name="Curirin">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/curirin-front.jpg" alt="Personagem Curirin">
+                </li>
+                
+                <li class="personagem" id="cell" data-name="Cell">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/cell-front.png" alt="Personagem Cell">
+                </li>
+
+                <li class="personagem" id="gohan" data-name="Gohan">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/gohan-front.jpg" alt="Personagem Gohan">
                 </li>
             </ul>
 
             <div class="personagem-grande personagem-jogador-2">
-                <div class="personagem-grande personagem-jogador-1">
-                    <img src="./src/imagens/freeza.png" alt="Imagem Do Freeza" id="personagem-jogador-2">
-                    <div class="nome">
-                        <h2>Freezar</h2>
-                    </div>
+                <img src="./src/imagens/freeza.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Freeza</h2>
                 </div>
             </div>
         </div>
