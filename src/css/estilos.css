@@ -5,12 +5,12 @@ body{
 
 body::before{
     content: '';
-    background-image: url("../imagens/gif-nuvens.gif.crdownload");
+    background-image: url("../imagens/gif-bolas.gif");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 103%;
+    height: 103%;
     opacity: 0.6;    
 }
 
@@ -20,9 +20,13 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-
+header img {
+    width: 6rem;
+    height: 6rem;
+}
 .cabecalho{
     z-index: 1;
+    margin-top: -1.8rem;
     display: flex;    
     justify-content: center;
 }
@@ -94,8 +98,8 @@ main{
 .selecao-de-personagens .lista-de-personagens .personagem{
     border: 2px solid var(--cor-padrao);
     background-color: var(--cor-padrao);
-    width: 30%;
-    height: 160px;
+    width: 24%;
+    height: 120px;
     cursor: pointer;
     z-index: 2;
     border-radius: 5px;
@@ -139,7 +143,7 @@ main{
     position: absolute;
     top: 5px;
     left: 5px;
-    color: var(--cor-azul-media);
+    color: var(--cor-secundaria);
     transition: opacity .3 ease-in-out;
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;

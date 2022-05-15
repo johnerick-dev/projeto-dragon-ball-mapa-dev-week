@@ -11,6 +11,14 @@
         width: 100px;
         height: 100px;
     }
+    header h1 {
+        margin-top: 2rem;     
+    }
+    header img {
+        margin-top: 3rem;
+        width: 5rem;
+        height: 5rem;
+    }
 }
 
 @media (max-width: 767px){
