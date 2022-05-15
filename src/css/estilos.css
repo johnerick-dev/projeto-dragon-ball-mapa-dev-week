@@ -77,6 +77,7 @@ header img {
     bottom: 0;
     width: 100%;
     font-size: 28px;
+    text-shadow: 10px 8px 3px rgb(27, 27, 27);
 }
 
 .selecao-de-personagens .personagem-grande.personagem-jogador-1 .nome::before{
@@ -147,6 +148,7 @@ header img {
     transition: opacity .3 ease-in-out;
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
+    font-size: large;
 }
 
 .selecao-de-personagens .lista-de-personagens .personagem.selecionado .tag{
