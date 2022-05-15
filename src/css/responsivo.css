@@ -1,6 +1,7 @@
 @media (max-width: 1280px){
     .cabecalho .titulo{
         font-size: 40px;
+        text-align: center;
     }
 
     .selecao-de-personagens .lista-de-personagens{
@@ -38,6 +39,7 @@
 
     .cabecalho .titulo{
         font-size: 22px;
+        text-align: center;
     }
 
     .selecao-de-personagens .personagem-grande{
