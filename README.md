@@ -15,14 +15,11 @@
 
 ![Imagem do site](./src/imagens/capa.png)
 
-## Visualização do site
+
+## Visualização do site e responsividade
 
 <p align="center">
-<img width="650" heidht="auto" src="">
+<img width="650" heidht="auto" src="./imagens/site.gif">
 </p>
 
-## Demonstrando responsividade
 
-<p align="center">
-<img width="650" heidht="auto" src="">
-</p>
