@@ -19,7 +19,7 @@
 ## Visualização do site e responsividade
 
 <p align="center">
-    <img width="650" heidht="auto" src="./imagens/site.gif">
+    <img width="650" heidht="auto" src="./src/imagens/site.gif">
 </p>
 
 
